@@ -1,0 +1,80 @@
+---
+title: "Drug-wide study associates 31 drug classes with the risk of Parkinson’s disease"
+author: "Julia Romanowska"
+institute: "University of Bergen"
+date: "2023-11-15"
+format:
+  revealjs:
+    logo: img/UiBmerke_grayscaleV8_transp.png
+    theme: solarized
+---
+
+```{r}
+#' include: false
+library(fontawesome)
+```
+
+## Take-home message
+
+## How did we come to this conclusion?
+
+::: incremental
+- Norwegian Prescription Database
+- hypothesis-free screening
+- ATC-code level 2, e.g., C09 = agents acting on renin-angiotensin system
+:::
+
+---
+### 10 drug classes `r fa("arrow-down")` PD-risk, 21 drug classes `r fa("arrow-up")` PD-risk
+
+![](img/pooled_compare_sex_4poster.png){height=650px}
+
+<p style="position: absolute; right: 5px; bottom: 5px; font-size: 12pt;">
+significant associations at FDR<0.05
+</p>
+
+## Can we trust the results?
+
+::: columns
+::: column
+PROBLEMS:
+
+- long prodromal phase
+- long-term vs. short-term drug usage
+:::
+::: column
+:::
+:::
+
+## Can we trust the results?
+
+::: columns
+::: column
+PROBLEMS:
+
+- long prodromal phase
+- long-term vs. short-term drug usage
+:::
+::: column
+SOLUTIONS:
+
+- time-lag analyses
+- dose-response analyses
+:::
+:::
+
+## Drug classes retaining the effect throughout time and doses
+
+## Conclusion
+
+::: callout-tip
+## drug classes `r fa("arrow-up")` PD-risk    
+help identify patients early
+:::
+
+. . .
+
+::: callout-tip
+## drug classes `r fa("arrow-down")` PD-risk    
+might be repurposed as new treatment
+:::
