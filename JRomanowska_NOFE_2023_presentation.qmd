@@ -7,6 +7,7 @@ format:
   revealjs:
     logo: img/UiBmerke_grayscaleV8_transp.png
     theme: solarized
+    css: custom.css
 ---
 
 ```{r}
@@ -16,12 +17,29 @@ library(fontawesome)
 
 ## Take-home message
 
-## How did we come to this conclusion?
+![](img/visual_abstract_transparent.png)
+
+::: notes
+Use of certain drugs can change risk of developing PD even up to 10 years after
+taking this drug.
+:::
+
+## How did we come to this conclusion? {.center}
 
 ::: incremental
 - Norwegian Prescription Database
-- hypothesis-free screening
-- ATC-code level 2, e.g., C09 = agents acting on renin-angiotensin system
+- hypothesis-free screening    
+_(Cox regression)_
+- ATC-code level 2    
+_(C09 = agents acting on renin-angiotensin system)_
+:::
+
+::: notes
+- NorPD: entire dataset, more than 600 million prescriptions from ca.4.5 million
+Norwegians, in the period 2004-2019
+- Cox regression with time-dependent exposure and age as time scale, adjusted for
+sex and education (as a proxy for socio-economic status)
+- grouping the drugs
 :::
 
 ---
@@ -29,7 +47,7 @@ library(fontawesome)
 
 ![](img/pooled_compare_sex_4poster.png){height=650px}
 
-<p style="position: absolute; right: 5px; bottom: 5px; font-size: 12pt;">
+<p style="position: absolute; right: 5px; top: 50px; font-size: 12pt;">
 significant associations at FDR<0.05
 </p>
 
@@ -44,6 +62,13 @@ PROBLEMS:
 :::
 ::: column
 :::
+:::
+
+::: notes
+- PD is a slow-developing disease with various symptoms appearing in a random
+sequence over 10 or more years before the final diagnosis can be set
+- some drugs can be taken sporadically, some need to be taken longer, some
+people take a smaller dose of a drug, some take larger - how to account for that?
 :::
 
 ## Can we trust the results?
@@ -63,7 +88,18 @@ SOLUTIONS:
 :::
 :::
 
+::: notes
+We have conducted several sensitivity analyses, most importantly:
+
+- _time-lag analyses_, where the exposure period was shortened for everyone by
+3, 5, 8, or 10 years
+- _dose-response analyses_, where the exposure was modeled as a categorical
+variable with quartiles of the number of prescriptions taken
+:::
+
 ## Drug classes retaining the effect throughout time and doses
+
+
 
 ## Conclusion
 
