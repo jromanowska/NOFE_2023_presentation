@@ -1,6 +1,8 @@
 # NOFE_2023_presentation
 Presentation for Norwegian Epidemiology Association [conference in 2023](http://nofe.no/nofe-conference-2023/).
 
+[View the presentation](JRomanowska_NOFE_2023_presentation.html) or [checkout the code](https://github.com/jromanowska/NOFE_2023_presentation/).
+
 Presenting results from the newly published article:    
 "Association Between Use of Any of the Drugs Prescribed in Norway and the Subsequent Risk of Parkinson Disease:
 A Drug-wide Association Study", Julia Romanowska, Kjetil Bjornevik, Marianna Cortese, Julia A Tuominen,
