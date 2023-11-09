@@ -45,7 +45,7 @@ sex and education (as a proxy for socio-economic status)
 ---
 ### 10 drug classes `r fa("arrow-down")` PD-risk, 21 drug classes `r fa("arrow-up")` PD-risk
 
-![](img/pooled_compare_sex_4poster.png){height=650px}
+<img src="img/pooled_compare_sex_4poster.png" style="height: 650px;"/>
 
 <p style="position: absolute; right: 5px; top: 50px; font-size: 12pt;">
 significant associations at FDR<0.05
@@ -99,18 +99,34 @@ variable with quartiles of the number of prescriptions taken
 
 ## Drug classes retaining the effect throughout time and doses
 
+<img src="img/visual_abstract_transparent.png" style="height: 700px; position: absolute; right: 20px; top: 40px;"/>
 
+## Drug classes retaining the effect throughout time and doses
+
+<img src="img/visual_abstract_after_sensitivity_analyses_transparent.png" style="height: 700px; position: absolute; right: 20px; top: 40px;"/>
 
 ## Conclusion
 
 ::: callout-tip
 ## drug classes `r fa("arrow-up")` PD-risk    
-help identify patients early
+help identify patients early    
+_e.g., urologicals, psychoanaleptics_
 :::
 
 . . .
 
 ::: callout-tip
 ## drug classes `r fa("arrow-down")` PD-risk    
-might be repurposed as new treatment
+might be repurposed as new treatment    
+_e.g., drugs acting on renin-angitensin system, drugs for obstructive lung disease_
 :::
+
+::: notes
+Long way to go - all the RCTs have so far failed, but one problem might be
+that patients involved in these had too advanced stage of PD for the drug
+to be able to reverse the brain damage.
+:::
+
+## Check it out yourself! {.center .smaller}
+
+https://jromanowska.github.io/Norwegian_drug_screening_ATC_level2/
