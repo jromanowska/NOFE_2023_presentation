@@ -129,4 +129,13 @@ to be able to reverse the brain damage.
 
 ## Check it out yourself! {.center .smaller}
 
-https://jromanowska.github.io/Norwegian_drug_screening_ATC_level2/
+[https://jromanowska.github.io/Norwegian_drug_screening_ATC_level2/](https://jromanowska.github.io/Norwegian_drug_screening_ATC_level2/)
+
+<br/>
+
+Julia Romanowska, Kjetil Bjornevik, Marianna Cortese, Julia A Tuominen,
+Magne Solheim, Asieh Abolpour Mofrad, Jannicke Igland, Clemens R Scherzer, Trond Riise,    
+"Association Between Use of Any of the Drugs Prescribed in Norway and the Subsequent Risk of Parkinson Disease:
+A Drug-wide Association Study",    
+_Neurology_, **2023**,
+[DOI: 10.1212/WNL.0000000000207899](https://n.neurology.org/content/early/2023/10/10/WNL.0000000000207899)
