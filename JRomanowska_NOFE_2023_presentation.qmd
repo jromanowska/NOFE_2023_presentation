@@ -103,7 +103,7 @@ variable with quartiles of the number of prescriptions taken
 
 ## Drug classes retaining the effect throughout time and doses
 
-<img src="img/visual_abstract_after_sensitivity_analyses_transparent.png" style="height: 700px; position: absolute; right: 20px; top: 40px;"/>
+<img src="img/visual_abstract_after_sensitivity_analyses.png" style="height: 700px; position: absolute; right: 20px; top: 40px;"/>
 
 ## Conclusion
 
