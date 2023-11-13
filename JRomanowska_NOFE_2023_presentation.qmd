@@ -45,7 +45,7 @@ sex and education (as a proxy for socio-economic status)
 ---
 ### 10 drug classes `r fa("arrow-down")` PD-risk, 21 drug classes `r fa("arrow-up")` PD-risk
 
-<img src="img/pooled_compare_sex_4poster.png" style="height: 650px;"/>
+<img src="img/pooled_compare_sex_4poster_better_contrast.png" style="height: 650px;"/>
 
 <p style="position: absolute; right: 5px; top: 50px; font-size: 12pt;">
 significant associations at FDR<0.05
